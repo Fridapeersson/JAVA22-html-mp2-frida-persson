@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header-img {
+    width: 100%;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+
+.flex-menu {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-image: url("../img/background.jpg");
+    color: honeydew;
+}
+
+
+.menu {
+    padding-top: 30px;
+}
+
+
+.menu-item {
+    font-style: italic;
+}
+
+
+.price {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.adress {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.map {
+    color: black;
+} 
+
+.map:hover {
+    transition: .5s;
+    text-decoration: none;
+    border-bottom: solid gray 3px;
+    color: gray;
+}
+
+.contact-nbr {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-nbr a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-nbr a:hover {
+    transition: .5s;
+    color: gray;
+    border-bottom: solid gray 2px;
+}
+
+
+.socials {
+    width: 35px;
+}
+
+
+div .inline-social {
+    display: inline-block;
+}
+
+
+div .inline-social:hover {
+    position: relative;
+    top: -4px;
+}
+
+
+h1 {
+    padding-bottom: 50px;
+}
+
+
+h5 {
+    border-bottom: solid gray 2px;
+}
+
+
+h6 {
+    padding-bottom: 5px;
+}
+
+
+footer {
+    padding-bottom: 40px;
+}
